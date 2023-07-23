@@ -1,6 +1,7 @@
 # AI Amplify 24-Hour Hackathon
 
-This is a Repository for the AI Amplify 24 Hour Hackathon Solution by Team United whose members are Devanshu, Shanthanu, Yash, Ayush And Musab
+This is a Repository for the AI Amplify 24 Hour Hackathon Solution by Team United whose members are Devanshu, Shanthanu, Yash, Ayush And Musab.
+We won the 2nd Runner-Up Position in this competition.
 
 
 ## Event Details
@@ -13,58 +14,46 @@ This is a Repository for the AI Amplify 24 Hour Hackathon Solution by Team Unite
 
 ## Problem Statements
 
-Participants will work on three intriguing problem statements with varying levels of difficulty:
-
 ### Problem Statement 1: Recognizing Flower Types with Convolutional Neural Network
 **Difficulty: HARD**
 
-In this challenge, participants will develop a Convolutional Neural Network (CNN) model to recognize different types of flowers, including Rose, Chamomile, Dandelion, Sunflower, and Tulip. The provided dataset consists of labeled images of these flowers. Your task is to create a robust CNN model that can accurately classify the flowers.
+Problem Statement Description: Problem Description: Your task is to develop a Convolution Neural Network (CNN)-based AI system that can accurately recognize and classify different types of flowers – specifically, rose, chamomile, dandelion, sunflower, and tulip. The system should be able to process images of these flowers and accurately classify them into the correct type.
+Input: Images of five types of flowers provided by the user. These images could vary in terms of flower size, image resolution, and flower orientation.
+
+Output: The type of flower that the input image represents. The system should analyze the input image, recognize the flower, and output the corresponding flower type.
+
+Rules: Participants can use existing CNN architectures to develop the system. However, they should justify their choice of architecture and explain how it contributes to the effectiveness of the system. They should demonstrate the system's ability to accurately recognize a wide variety of flower images.
 
 ### Problem Statement 2: Inventory Demand Forecasting
 **Difficulty: MODERATE**
 
-For this problem statement, participants will tackle the task of inventory demand forecasting. Given historical sales and inventory data, your goal is to build a predictive model that can forecast future demand for products accurately. This is a critical business problem that can help companies optimize their inventory management and improve customer satisfaction.
+Problem Statement Description: Problem Description: Your task is to develop an AI-based system that can predict next month's sales for various geographies, distributors, and retailers based on provided sales data. The system should be able to analyze past sales data, understand patterns, account for seasonal trends, and make accurate demand forecasts. The accuracy of the forecast is critical as it can significantly impact the supply chain and business operations.
+Input: Historical sales data of different geographies, distributors, and retailers. This data could include information such as the number of units sold, revenue generated, time of year, promotional activities, and more.
+
+Output: A forecast of next month's sales for different geographies, distributors, and retailers. The forecast should include a predicted number of units sold and the associated revenue.
+
+Rules: Participants are allowed to use existing forecasting algorithms to develop the system. However, they should justify their choice of tools and explain how these tools contribute to the effectiveness of the system. The participants should be able to demonstrate the accuracy of their forecasting system and its robustness to handle diverse datasets.
+
+Reference: The reference provides a step-by-step guide on how to implement an ARIMA model for inventory demand forecasting in Python. Participants can use this tutorial to understand the problem, learn a potential solution approach, and get a starting point for their own code.
+https://www.geeksforgeeks.org/inventory-demand-forecasting-using-machine-learning-python/
 
 ### Problem Statement 3: Amazon Product Review Analysis using Recurrent Neural Network
 **Difficulty: EASY**
 
-In this relatively easier challenge, participants will work on sentiment analysis for Amazon product reviews. You will build a Recurrent Neural Network (RNN) model capable of analyzing and classifying product reviews into positive or negative sentiments. This can be a valuable tool for businesses to understand customer feedback and make data-driven decisions.
+Problem Statement Description: Problem Description: Your task is to develop a Recurrent Neural Network (RNN)-based AI system that can analyze product reviews on Amazon and predict the rating based on the review text. The system should be able to understand the sentiment and content of the review and estimate the rating that corresponds to the reviewer's opinion.
+Input: Amazon product reviews dataset. The dataset would include the review text and possibly other metadata about the review.
 
-## Submission Guidelines
+Output: Predicted product rating based on the review text. The system should be able to estimate the rating (usually on a 1-5 scale) that corresponds to the sentiment and content of the review.
 
-To submit your solution:
+Rules: Participants can use existing RNN architectures or other suitable machine learning models to develop the system. However, they should justify their choice of models and explain how these contribute to the effectiveness of the system. They should demonstrate the system's ability to accurately predict product ratings based on a wide variety of Amazon reviews.
 
-1. Create a new folder for each problem statement within the repository.
-2. Place your code and any relevant documentation or instructions inside the respective folders.
-3. Ensure your code is well-commented and easy to understand.
-4. Commit and push your changes to your GitHub repository before the hackathon deadline.
+Reference: The reference is a GeeksforGeeks tutorial demonstrating how to use a Recurrent Neural Network (RNN) for sentiment analysis on Amazon product reviews. Participants can use this tutorial to understand the concept, learn how to implement an RNN for sentiment analysis, and use the provided code as a starting point for their own solution.
+https://www.geeksforgeeks.org/amazon-product-review-sentiment-analysis-using-rnn/
 
-## Judging Criteria
+## Results
 
-The submissions will be evaluated based on the following criteria:
+We won the 2nd Runner-Up Position in this competition.
 
-- **Accuracy:** How well does your model perform on unseen data?
-- **Innovation:** Did you try any unique approaches or techniques?
-- **Code Quality:** Is your code well-organized, documented, and easy to follow?
-- **Presentation:** Prepare a brief presentation to showcase your work to the judges.
 
-## Prizes
 
-Participants will have the chance to win exciting prizes and opportunities from our sponsors and organizers.
-
-## Resources
-
-To help you get started, we have compiled some useful resources in the `resources` folder of this repository. Feel free to explore them and leverage any relevant tools, libraries, or tutorials.
-
-## Code of Conduct
-
-We expect all participants to adhere to the [Code of Conduct](code_of_conduct.md) throughout the hackathon. Let's maintain a friendly and inclusive environment for everyone.
-
-## Contact Us
-
-If you have any questions or need assistance during the hackathon, please don't hesitate to reach out to our team:
-
-- Email: [organizers@example.com](mailto:organizers@example.com)
-- Slack: [AI-Amplify-Hackathon.slack.com](https://AI-Amplify-Hackathon.slack.com)
-
-Good luck and happy hacking! We can't wait to see the amazing AI solutions you come up with. Let's amplify AI together! 🚀
+We would like to thank the event organizers for hosting the event and for keeping the problem statements interesting and engaging! 🚀
