@@ -1,0 +1,47 @@
+{
+  "name": "contact-angle-measurement",
+  "productName": "Contact Angle Measurement",
+  "version": "0.1.0",
+  "description": "Find Contact Angle of Droplet With Surface",
+  "repository": "https://github.com/ResearchCellSAKEC/Contact-Angle-Measurement",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
+  },
+  "keywords": [],
+  "author": {
+    "name": "Shah And Anchor Kutchhi Engineering College",
+    "email": "76646274+DevanshuSawant@users.noreply.github.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@electron-forge/publisher-github": "^6.2.1",
+    "@electron/remote": "^2.0.10",
+    "bootstrap": "^5.3.0",
+    "electron-squirrel-startup": "^1.0.0",
+    "node-webcam": "^0.8.2",
+    "python-shell": "^5.0.0",
+    "shepherd.js": "^11.1.1",
+    "update-electron-app": "^2.0.1"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.2.1",
+    "@electron-forge/maker-deb": "^6.2.1",
+    "@electron-forge/maker-rpm": "^6.2.1",
+    "@electron-forge/maker-squirrel": "^6.2.1",
+    "@electron-forge/maker-zip": "^6.2.1",
+    "@electron-forge/plugin-auto-unpack-natives": "^6.2.1",
+    "electron": "25.2.0",
+    "prettier": "2.8.8"
+  },
+  "build": {
+    "files": [
+      "src/engine",
+      "image-stitching-env"
+    ]
+  }
+}
