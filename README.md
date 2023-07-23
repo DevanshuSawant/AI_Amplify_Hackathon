@@ -1,14 +1,13 @@
 # AI Amplify 24-Hour Hackathon
 
-This is a Repository for the AI Amplify 24 Hour Hackathon Solution by Team United whose members are Devanshu, Shanthanu, Yash, Ayush And Musab.
-We won the 2nd Runner-Up Position in this competition.
+This repository contains the solution for the AI Amplify 24 Hour Hackathon by Team United, comprising members Devanshu, Shanthanu, Yash, Ayush, and Musab. We are proud to announce that our team secured the 2nd Runner-Up Position in this highly competitive event.
 
 
 ## Event Details
 
 - **Date:** 22 July, 2023
 - **Duration:** 24 hours
-- **Location:** [1Finance,Goregaon]("https://www.google.com/maps/place/Lotus+Corporate+Park/@19.1447447,72.8554805,16.33z/data=!4m6!3m5!1s0x3be7b7b95e533c2d:0xc1ad242d613c1395!8m2!3d19.1449661!4d72.853261!16s%2Fg%2F11sxb56krv?entry=ttu")
+- **Location:** [1Finance,Goregaon](https://www.google.com/maps/place/Lotus+Corporate+Park/@19.1447447,72.8554805,16.33z/data=!4m6!3m5!1s0x3be7b7b95e533c2d:0xc1ad242d613c1395!8m2!3d19.1449661!4d72.853261!16s%2Fg%2F11sxb56krv?entry=ttu)
 
 
 
@@ -16,6 +15,9 @@ We won the 2nd Runner-Up Position in this competition.
 
 ### Problem Statement 1: Recognizing Flower Types with Convolutional Neural Network
 **Difficulty: HARD**
+
+- [**Kaggle Notebook**](https://www.kaggle.com/monumental610/yolo-v8-model-for-flower-classification)
+- [**Dataset**](https://app.roboflow.com/team1-0gplr/flower-classification-gsskn/2)
 
 Problem Statement Description: Problem Description: Your task is to develop a Convolution Neural Network (CNN)-based AI system that can accurately recognize and classify different types of flowers – specifically, rose, chamomile, dandelion, sunflower, and tulip. The system should be able to process images of these flowers and accurately classify them into the correct type.
 Input: Images of five types of flowers provided by the user. These images could vary in terms of flower size, image resolution, and flower orientation.
@@ -27,6 +29,8 @@ Rules: Participants can use existing CNN architectures to develop the system. Ho
 ### Problem Statement 2: Inventory Demand Forecasting
 **Difficulty: MODERATE**
 
+- [**Kaggle Notebook**](https://www.kaggle.com/code/monumental610/dairy-goods-sales-forecasting-for-days-of-the-week)
+
 Problem Statement Description: Problem Description: Your task is to develop an AI-based system that can predict next month's sales for various geographies, distributors, and retailers based on provided sales data. The system should be able to analyze past sales data, understand patterns, account for seasonal trends, and make accurate demand forecasts. The accuracy of the forecast is critical as it can significantly impact the supply chain and business operations.
 Input: Historical sales data of different geographies, distributors, and retailers. This data could include information such as the number of units sold, revenue generated, time of year, promotional activities, and more.
 
@@ -36,6 +40,8 @@ Rules: Participants are allowed to use existing forecasting algorithms to develo
 
 Reference: The reference provides a step-by-step guide on how to implement an ARIMA model for inventory demand forecasting in Python. Participants can use this tutorial to understand the problem, learn a potential solution approach, and get a starting point for their own code.
 https://www.geeksforgeeks.org/inventory-demand-forecasting-using-machine-learning-python/
+
+
 
 ### Problem Statement 3: Amazon Product Review Analysis using Recurrent Neural Network
 **Difficulty: EASY**
